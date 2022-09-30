@@ -2,37 +2,31 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cores em CSS</title>
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css>">
 </head>
 <body>
-    <h2 style="background-color: hwb(240 0% 0% / 0.438); color: white">Exemplo de Cores</h2>
+<main>
+    <div class="container">
+        <div class="title"> Calculadora - IMC </div>
+        <div class="input">
+            <label>Nome:</label>
+            <input type="text" id="nome">
+            </div>
+            <div class="input">
+            <label>Altura:</label>
+            <input type="number" id="altura">
+            </div>
+            <div class="input">
+                <laber>Peso:</laber>
+                <input type="number" id="peso">
+            </div>
+            <button id="calcular">Calcular</button>
 
-    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor error alias harum numquam deserunt culpa animi. Dicta architecto quo, repudiandae, illum excepturi reprehenderit impedit quis praesentium quasi tempore accusamus ipsam.</h2>
-
-    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor error alias harum numquam deserunt culpa animi. Dicta architecto quo, repudiandae, illum excepturi reprehenderit impedit quis praesentium quasi tempore accusamus ipsam.</h2>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <h1>Você também pode acessar</h1>
-    <p> <a href="https://pt.wikipedia.org/wiki/Marie_Curie " target="_blank" rel="external"> Clique Aqui</a></p>
-
-    <p>
-        <p></p>
-    <a href="pagina02.html">Ir para a próxima página</a></p>
-    <favicon <link rel="icon" type="32x32" sizes="32x32" href="/favicon-32x32.png">
-
+            <div class="result" id="resultado"></div>
+    </div>
+</main>    
+<script src="./imc.js"></script>
 </body>
 </html>
